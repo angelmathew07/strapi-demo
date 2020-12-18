@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "phases",
+  "info": {
+    "name": "Phases"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "article": {
+      "via": "phases",
+      "model": "articles"
+    }
+  }
+}

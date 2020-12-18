@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_participants_number_participants",
+  "info": {
+    "name": "Participants",
+    "icon": "people-carry"
+  },
+  "options": {},
+  "attributes": {
+    "PartcipantsMaximum": {
+      "type": "integer"
+    },
+    "ParticipantsMinimum": {
+      "type": "integer"
+    }
+  }
+}

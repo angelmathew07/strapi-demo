@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/single-con",
+      "handler": "single-con.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/single-con",
+      "handler": "single-con.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/single-con",
+      "handler": "single-con.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

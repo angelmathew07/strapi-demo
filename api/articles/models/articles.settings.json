@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "name": "Articles",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Editor": {
+      "type": "richtext"
+    },
+    "CoverImage": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Steps": {
+      "type": "json"
+    },
+    "Duration": {
+      "type": "component",
+      "repeatable": false,
+      "component": "duration-values.duration"
+    },
+    "Participants": {
+      "type": "component",
+      "repeatable": false,
+      "component": "participants-number.participants"
+    },
+    "situations": {
+      "collection": "situation",
+      "via": "article"
+    },
+    "phases": {
+      "collection": "phases",
+      "via": "article"
+    }
+  }
+}

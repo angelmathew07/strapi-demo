@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "situations",
+  "info": {
+    "name": "Situation"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "article": {
+      "via": "situations",
+      "model": "articles"
+    }
+  }
+}

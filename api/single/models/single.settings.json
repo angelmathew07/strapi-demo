@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "singles",
+  "info": {
+    "name": "Single"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "articles": {
+      "model": "articles"
+    }
+  }
+}

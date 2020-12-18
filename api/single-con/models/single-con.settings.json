@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "single_cons",
+  "info": {
+    "name": "Single_Con"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "TitleSingle": {
+      "type": "string"
+    }
+  }
+}

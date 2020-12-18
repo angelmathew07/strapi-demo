@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_duration_values_durations",
+  "info": {
+    "name": "Duration",
+    "icon": "business-time",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "DurationMinimum": {
+      "type": "integer"
+    },
+    "DurationMaximum": {
+      "type": "integer"
+    }
+  }
+}
